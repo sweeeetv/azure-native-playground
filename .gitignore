@@ -1,2 +1,4 @@
 node_modules
 .env
+.DH_Storage
+.DH_Storage/*
