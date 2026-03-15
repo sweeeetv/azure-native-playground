@@ -36,9 +36,9 @@ _Backend, API_
 │ ├── main.tf # Log Analytics, Key Vault, etc
 │ ├── networks.tf  
 │ └── outputs.tf  
-├── /prototypes # apps, labs, projects, experiments.
+├── /items # apps, labs, projects, experiments.
 │ ├── /header-parser  
-│ ├── /exercise-tracker
+│ ├── /fcc-backend-exercise-tracker
 │ └── /... more
 ├── /scripts # Helper Automation
 │ └── deploy-all.sh
