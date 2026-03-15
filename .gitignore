@@ -1,0 +1,20 @@
+# Terraform local state and plugins
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+
+
+
+
+
+# Node.js dependencies (for your FCC labs)
+node_modules/
+npm-debug.log*
+
+
+
+# OS specific files
+.DS_Store
+Thumbs.db
