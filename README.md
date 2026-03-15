@@ -46,5 +46,3 @@ _Backend, API_
 └── README.md
 
 ### Shared resources
-
--
