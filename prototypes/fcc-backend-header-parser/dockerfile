@@ -1,0 +1,20 @@
+#lightweight Node image
+FROM node:20-alpine
+
+#set the working directory
+WORKDIR /app
+
+#copy package.json and package-lock.json to the working directory layer, this allows to install dependencies before copying the rest of the code, which can speed up builds if dependencies haven't changed in the later cycle.
+COPY package*.json ./
+
+#install dependencies
+RUN npm install --production
+
+#copy the rest of your application code
+COPY . .
+
+#portt 3000
+EXPOSE 3000
+
+#start the app
+CMD ["node", "index.js"]
