@@ -28,3 +28,5 @@ Thumbs.db
 .DH_Storage
 .DH_Storage/*
 .vscode/
+
+# use git rm -r --cached <.DS_Store> to remove. 
